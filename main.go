@@ -11,6 +11,7 @@ func main() {
 	//race.RacyChannel()
 	//mt.CountSeq()
 	//lock.Count()
-	mt.CountSeqUnfair()
+	//mt.CountSeqUnfair()
+	mt.CountSeqFair()
 	//mt.CountSeq()
 }
