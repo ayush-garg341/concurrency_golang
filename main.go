@@ -2,11 +2,12 @@ package main
 
 import (
 	//race "concurrency_go/race"
-	tcp "concurrency_go/multithreading"
+	lock "concurrency_go/locking"
 )
 
 func main() {
 	//race.RaceConditions()
 	//race.RacyChannel()
-	tcp.Server()
+	//mt.CountSeq()
+	lock.Count()
 }
